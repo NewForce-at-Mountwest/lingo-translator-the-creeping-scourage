@@ -1,0 +1,13 @@
+
+.french-container{
+    border: 1px solid black;
+}
+
+.info-container{
+    border: 1px solid black;
+}
+#french-left, #french-center, #french-right{
+    display: inline-block;
+    height: 40vh;
+    border: 1px solid black;
+}
