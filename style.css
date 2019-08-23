@@ -1,3 +1,16 @@
+
+
+.french-container{
+    border: 1px solid white;
+}
+
+.info-container{
+    border: 1px solid white;
+}
+#french-left, #french-center, #french-right{
+    display: inline-block;
+    height: 40vh;
+    border: 1px solid white;
 /* #language-container{
 display: flex;
 justify-content: center;
