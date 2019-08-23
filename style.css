@@ -20,3 +20,39 @@ margin: 1em;
 height: 150vh;
 overflow: auto;
 }
+.container {
+    display: flex;
+    padding: 2em;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /* border: solid black 1px; */
+    flex: 0 0 0 100%;
+}
+
+.hindiHeader {
+    text-align: center;
+}
+.flex-column{
+    flex-basis: 33%;
+}
+
+.p-2{
+    /* width: 33vw; */
+    /* flex-basis: 50%; */
+    list-style-type: none;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    /* border: solid red 1px; */
+
+}
+
+#hindiTranslatorInput{
+    align-self: center;
+
+}
+
+#hindiTranslatorButton{
+    display: inline;
+}
+
