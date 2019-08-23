@@ -11,7 +11,28 @@ border: dashed black 1px;
 /* margin:5%;
 padding:5%; */
 width: auto;
+}
+#language-container {
+  border: 3px solid black;
+  box-sizing: border-box;
+  font-family: 'Abril Fatface', cursive;
 
+}
+
+.text-center {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.left, .middle, .right {
+display: inline-block;
+width: auto;
+margin: 1em;
+height: 150vh;
+overflow: auto;
 }
 .container {
     display: flex;
