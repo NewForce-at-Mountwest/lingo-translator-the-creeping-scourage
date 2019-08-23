@@ -1,3 +1,17 @@
+/* #language-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-content: stretch;
+flex-direction: column;
+} */
+#notable-people,#fun-facts,#countries-spoken{
+display:inline-block;
+border: dashed black 1px;
+/* margin:5%;
+padding:5%; */
+width: auto;
+}
 #language-container {
   border: 3px solid black;
   box-sizing: border-box;
@@ -55,4 +69,3 @@ overflow: auto;
 #hindiTranslatorButton{
     display: inline;
 }
-
